@@ -12,8 +12,7 @@ import { Link as RouterLink } from "react-router-dom";
 import Link from "@mui/material/Link";
 import { Badge } from "@mui/material";
 import FavoriteIcon from "@mui/icons-material/Favorite";
-import ContentSection from "./Template";
-import CardRow from "./NewsTemplate";
+
 
 const Navbar: React.FC = () => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
