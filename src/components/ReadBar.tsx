@@ -187,8 +187,7 @@ const Navbar: React.FC = () => {
           </Toolbar>
         </AppBar>
       </Box>
-      <ContentSection />
-      <CardRow />
+
     </>
   );
 };

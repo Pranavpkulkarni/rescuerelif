@@ -1,4 +1,3 @@
-// src/components/ContentSection.tsx
 import React from "react";
 import { Box, Container, Typography, Button } from "@mui/material";
 
@@ -37,9 +36,9 @@ const ContentSection: React.FC = () => {
           variant="contained"
           color="primary"
           sx={{
-            borderRadius: "50px", // Oval shape
-            px: 5, // horizontal padding
-            py: 1.5, // vertical padding
+            borderRadius: "50px", 
+            px: 5, 
+            py: 1.5, 
             fontWeight: "bold",
             fontSize: "1rem",
             textTransform: "none",
